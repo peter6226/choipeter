@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>확증편향, 당신의 시선</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Noto Sans KR', sans-serif;
+    }
+    body {
+      background: black;
+      color: white;
+      line-height: 1.6;
+    }
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: black;
+      padding: 20px;
+      z-index: 100;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    section {
+      min-height: 100vh;
+      padding: 120px 60px 60px;
+    }
+    h1, h2, h3 {
+      color: red;
+      margin-bottom: 20px;
+    }
+    .section1 img, .section4 img {
+      width: 100%;
+      margin: 30px 0;
+    }
+    .section2 .bubble {
+      background: red;
+      color: white;
+      padding: 40px;
+      border-radius: 50%;
+      width: 200px;
+      height: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      font-weight: bold;
+      margin: 20px auto;
+    }
+    .section3 {
+      background: linear-gradient(to right, black 50%, white 50%);
+      color: white;
+    }
+    .section3 .text {
+      max-width: 600px;
+      background: black;
+      padding: 40px;
+    }
+    .section4 .funnel {
+      width: 100%;
+      text-align: center;
+      margin-top: 40px;
+    }
+    .quote {
+      text-align: center;
+      color: red;
+      margin-top: 60px;
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#section1">홈</a>
+    <a href="#section2">확증편향이란?</a>
+    <a href="#section3">해결책</a>
+    <a href="#section4">관련자료</a>
+  </nav>
+
+  <section id="section1" class="section1">
+    <h2>“내가 보고 싶은 것만 보는 사회”</h2>
+    <img src="image1.png" alt="첫번째 섹션 이미지">
+  </section>
+
+  <section id="section2" class="section2">
+    <h2>“모든 정보가 나를 닮아갈 때”</h2>
+    <div class="bubble">확증편향</div>
+    <p>확증편향은 자신의 신념이나 기대를 확인시켜주는 정보만을 선택적으로 수용하고, 반대되는 정보는 무시하거나 폄하하는 인지적 편향입니다...</p>
+  </section>
+
+  <section id="section3" class="section3">
+    <h2>“익숙한 믿음, 낯선 진실”</h2>
+    <div class="text">
+      <p>우리는 익숙한 생각에 안주하며, 새로운 정보나 시각에 대해 경계심을 가질 수 있습니다...</p>
+    </div>
+  </section>
+
+  <section id="section4" class="section4">
+    <h2>관련자료</h2>
+    <div class="funnel">
+      <img src="funnel-image.png" alt="역피라미드형 기사 이미지">
+    </div>
+    <div class="quote">“진실은 한쪽 편에만 머물지 않습니다.”<br>“한 방향만 바라보면, 절반의 세상만 보게 됩니다.”</div>
+  </section>
+</body>
+</html>
